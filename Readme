@@ -1,0 +1,12 @@
+Run invoice server on 3001
+Run this on 3000
+
+And you can see how the login/logout work with next js
+And you can also see how fetches work
+
+Check network tab to see connect.sid after logging in etc.
+
+Files of interest:
+    next.config.mjs (for process.env setup to work on front end (default is only server has access))
+
+Note after redirected to "dashboard" go back to the root at localhost:3000 to test the fetch and logout
